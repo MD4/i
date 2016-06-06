@@ -11,7 +11,7 @@ A (very) simple library to expose only clones of referenced objects in function 
 ### Require
 
 ```javascript
-var I = require('I);
+var I = require('I');
 // or simply
 require('I');
 ```
