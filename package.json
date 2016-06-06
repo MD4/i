@@ -1,0 +1,36 @@
+{
+  "name": "i",
+  "version": "1.0.0",
+  "description": "A (very) simple library to expose only clones of referenced objects in function arguments.",
+  "main": "lib/I",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD4/i.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MD4/i/issues"
+  },
+  "homepage": "https://github.com/MD4/i#readme",
+  "author": "Martin DEQUATREMARE (https://github.com/MD4)",
+  "license": "MIT",
+  "keywords": [
+    "immutable",
+    "function",
+    "functional",
+    "copy",
+    "arguments"
+  ],
+  "engines": {
+    "node": ">=4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "deepcopy": "^0.6.1"
+  }
+}
