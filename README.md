@@ -1,4 +1,4 @@
-# I [![Build Status](https://travis-ci.org/MD4/I.svg?branch=master)](https://travis-ci.org/MD4/I)
+# i [![Build Status](https://travis-ci.org/MD4/i.svg?branch=master)](https://travis-ci.org/MD4/i)
 
 A (very) simple library to expose only clones of referenced objects in function arguments.
 
@@ -11,9 +11,9 @@ A (very) simple library to expose only clones of referenced objects in function 
 ### Require
 
 ```javascript
-var I = require('I');
+var i = require('i');
 // or simply
-require('I');
+require('i');
 ```
 
 ### Example
@@ -24,18 +24,18 @@ var a = { a: 1, b: 2 };
 var transform = (obj => {
   obj.b = 3;
   return obj;
-}).I;
+}).i;
 
 // or
 
-transform = I(obj => {
+transform = i(obj => {
   obj.b = 3;
   return obj;
 });
 
 // or
 
-transform = I(function(obj) {
+transform = i(function(obj) {
   obj.b = 3;
   return obj;
 });
@@ -45,7 +45,7 @@ transform = I(function(obj) {
 transform = function(obj) {
   obj.b = 3;
   return obj;
-}.I;
+}.i;
 
 console.log(a);
 console.log(transform(a));
