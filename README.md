@@ -54,3 +54,7 @@ console.log(a);
 
 ## test
 ```npm test```
+
+## Notes
+
+I still have no idea if it is a stupid or good idea.
