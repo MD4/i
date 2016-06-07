@@ -4,7 +4,7 @@ A (very) simple library to expose only clones of referenced objects in function 
 
 ## Installation
 
-```npm install MD4/i```
+```npm install i-```
 
 ## Usage
 
