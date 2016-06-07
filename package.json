@@ -1,5 +1,5 @@
 {
-  "name": "i",
+  "name": "i-",
   "version": "1.1.0",
   "description": "A (very) simple library to expose only clones of referenced objects in function arguments.",
   "main": "lib/i",
