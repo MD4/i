@@ -1,6 +1,7 @@
 # i
 [![Build Status](https://travis-ci.org/MD4/i.svg?branch=master)](https://travis-ci.org/MD4/i)
 [![Build Status](https://david-dm.org/MD4/i.svg)](https://david-dm.org/MD4/i)
+[![Coverage Status](https://coveralls.io/repos/github/MD4/i/badge.svg?branch=master)](https://coveralls.io/github/MD4/i?branch=master)
 
 A (very) simple library to expose only clones of referenced objects in function arguments.
 

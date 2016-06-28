@@ -4,7 +4,8 @@
   "description": "A (very) simple library to expose only clones of referenced objects in function arguments.",
   "main": "lib/i",
   "scripts": {
-    "test": "mocha **/*.test.js"
+    "test": "mocha **/*.test.js",
+    "coverage": "./node_modules/.bin/jscoverage lib"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,11 @@
     "node": ">=4.1"
   },
   "devDependencies": {
+    "chai": "3.5.0",
     "mocha": "2.5.3",
-    "chai": "3.5.0"
+    "mocha-lcov-reporter": "1.2.0",
+    "jscoverage": "0.6.0",
+    "coveralls": "2.11.9"
   },
   "dependencies": {
     "deepcopy": "0.6.3"
