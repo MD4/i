@@ -1,4 +1,6 @@
-# i [![Build Status](https://travis-ci.org/MD4/i.svg?branch=master)](https://travis-ci.org/MD4/i)
+# i
+[![Build Status](https://travis-ci.org/MD4/i.svg?branch=master)](https://travis-ci.org/MD4/i)
+[![Build Status](https://david-dm.org/MD4/i.svg)](https://david-dm.org/MD4/i)
 
 A (very) simple library to expose only clones of referenced objects in function arguments.
 
