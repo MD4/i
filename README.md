@@ -1,5 +1,5 @@
 # i
-[![NPM Version](https://img.shields.io/npm/v/is-modular.svg)](https://www.npmjs.com/package/is-modular)
+[![NPM Version](https://img.shields.io/npm/v/i-.svg)](https://www.npmjs.com/package/i-)
 [![Build Status](https://travis-ci.org/MD4/i.svg?branch=master)](https://travis-ci.org/MD4/i)
 [![Dependency Status](https://david-dm.org/MD4/i.svg)](https://david-dm.org/MD4/i)
 [![devDependency Status](https://david-dm.org/MD4/i/dev-status.svg)](https://david-dm.org/MD4/i#info=devDependencies)
